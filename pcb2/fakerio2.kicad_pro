@@ -311,7 +311,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -329,11 +329,19 @@
     ],
     [
       "96cbd6ea-e072-4a09-abf2-fff45aa1ea45",
-      "dio-channel"
+      "dio-channel0"
     ],
     [
       "7541c238-0db9-4f84-b17c-3166d852a3e3",
       "dio-channel1"
+    ],
+    [
+      "4b533123-5b4c-49c8-91bd-37b990e458ec",
+      "dio-channel2"
+    ],
+    [
+      "30b8443e-c13b-4992-9a2d-8adb4b3f9174",
+      "dio-channel3"
     ]
   ],
   "text_variables": {}
