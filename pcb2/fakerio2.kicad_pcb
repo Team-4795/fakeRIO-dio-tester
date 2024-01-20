@@ -1121,7 +1121,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 56744f38-b704-452b-b871-9f14f247d347)
-    (at 176.53 109.22)
+    (at 162.56 109.22)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (property "Sheetfile" "fakerio2.kicad_sch")
@@ -2266,7 +2266,7 @@
 
   (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" (layer "F.Cu")
     (tstamp e050c070-6186-44d5-92d6-f8b43cd32ad6)
-    (at 83.82 109.56)
+    (at 83.82 108.29)
     (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
     (tags "TO-220-3 Horizontal RM 2.54mm")
     (property "Sheetfile" "fakerio2.kicad_sch")
@@ -3055,9 +3055,13 @@
     )
   )
 
-  (gr_line (start 50.8 63.5) (end 50.8 113.03)
+  (gr_line (start 56.515 111.76) (end 179.07 111.76)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 165aa10a-33d6-4363-b162-225cdeedb205))
+  (gr_line (start 50.8 76.2) (end 50.8 113.03)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 633c0211-3830-4986-9abe-b4df57d05738))
-  (gr_line (start 12.7 76.2) (end 111.76 76.2)
+  (gr_line (start 50.8 76.2) (end 179.07 76.2)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d54200be-f032-4f47-bd1f-619d40219c2c))
+  (gr_line (start 179.07 76.2) (end 179.07 113.03)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ed626d50-d0bc-4aa3-b3b0-047fe4f4413d))
 
 )
